@@ -7,7 +7,7 @@ export function MailField({
   id,
   error,
   className,
-  containerClassName, // ✅ nombre correcto
+  containerClassName,
   ...props
 }) {
   const generatedId = React.useId();
